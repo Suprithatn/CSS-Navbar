@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-header{
+    background: #337CFF;
+    padding:20px;
+}
+
+.main-div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-div__brand{
+    text-decoration: none;
+    font-size:30px;
+    color:white;
+    font-weight: bold;
+}
+
+.main-nav{
+    display: inline-block;
+    text-align: right;
+    width:calc(100% - 209px);
+    vertical-align: middle;
+}
+
+.main-nav__items{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+.main-nav__item{
+    display: inline-block;
+    margin:0px 8px;
+}
+
+.main-nav__item a{
+    color:white;
+    text-decoration: none;
+    padding:10px;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active{
+    background: #60AFFE;
+    border-radius: 5px;
+}
